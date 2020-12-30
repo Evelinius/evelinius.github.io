@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <style>
     html {
-        height: 100%;
+        margin-top: 0px;
     }
 </style>
 <html>
@@ -11,27 +11,80 @@
 </head>
 
 <body id="body">
-    <div>
-        <div id="header">
-            <style>
-                @font-face {
-                    font-family: "Robotron Dot Matrix";
-                    src: url("C:/Users/Пользователь/evelinius.github.io/fonts/19876.otf")
-                }
-            </style>
-            <h1>Hi, I'm Evelina Bezhanova</h1>
-            <h2>Junior Front-end developer | Junior Full-stack developer | Junior Data Analyst</h2>
+    <div id="header">
+        <style>
+            @font-face {
+                font-family: "Robotron Dot Matrix";
+                src: url("./fonts/19876.otf")
+            }
+        </style>
+        <H1 class="terminal">
+        </H1>
+        <h2>Junior Front-end developer | Junior Full-stack developer | Intern Data Analyst</h2>
+    </div>
+    <div id="content">
+        <div id="education">
+            <p>--Education:</p>
+            <p>>> National Research University of Electonic Technology</p>
+            <p>>> Bachelor's Degree</p>
+            <p>>> Education field: Design and technology of electronic tools</p>
+        </div>
+        <div id="contacts">
+            <P>--Contacts:</P>
+            <P>>> TEL: +7-953-182-27-62</P>
+            <P>>> MAIL: monsterelle9@gmail.com</P>
+            <P>>> TG: @eveliine</P>
+        </div>
+        <div id="container">
+            <img id="photo" src="DF8CzEgpqpM.jpg" width=335px height=400px/>
+        </div>
+        <div><img id="floppa" src="floppa.png" width=321px height=322px></div>
+    </div>
+    <div id="content">
+        <div id="work">
+            <p>--Work Experience:</p>
+            <p>>> July 2019 - December 2019 | Junior C# developer. Company LLC «Ankad»</p>
+            <p>I was working on a wpf application that displays a list of web services, their statuses, metrics, and logs. I was engaged in refining the application interface and replacing the method of communicating with web services with an abstract interface
+                implemented via HTTP communication or a COM-based interface.</p>
+            <p>>> October 2020 - December 2020 | Junior Development Engineer. Company LLC «Syntellect»</p>
+            <p>I was developing extensions for CRM: writing plugins, configurations, SQL queries. The work consisted mainly of writing complex SQL queries to output bank reports.</p>
+        </div>
+        <div id="skills">
+            <p>--Skills:</p>
+            <p>>> Python, Pandas</p>
+            <p>>> SQL</p>
+            <p>>> C# (desktop and web, OOP)</p>
+            <p>>> JavaScript, React, TypeScript</p>
+            <p>>> HTML, CSS</p>
+            <p>>> GIT</p>
         </div>
 
-        <div id="contacts">
-            <P>Contacts:</P>
-            <P>TEL: +7-953-182-27-62</P>
-            <P>MAIL: monsterelle9@gmail.com</P>
-            <P>TG: @eveliine</P>
-
+    </div>
+    <div id="content">
+        <div id="about">
+            <p>--About me:</p>
+            <p>>> Courses:
+                <p>Mathematical Statistics from Stepic</p>
+                <p>Python, ML, Pandas from Kaggle</p>
+                <p>Deep Learning from Stepic (in process)</p>
+                <p>SQL from
+                    <a href="https://sqlbolt.com/" style="color:white">sqlbolt</a>
+                </p>
+                <p>>> I don't want to work with legacy projects, so I changed two jobs. It is important for me to work with an interesting product and with an up-to-date technology stack.</p>
+        </div>
+        <div id="projects">
+            <p>--Projects:</p>
+            <p>
+                <a href="file:///C:/Projects/react_kcal_calculate/index.html" style="color:white">
+                    <p>>> Mealty Calculator</p>
+                </a>
+            </p>
         </div>
     </div>
+    <canvas></canvas>
 
 </body>
+<script src="dist/typewriting.min.js"></script>
+<script src="index.js"></script>
 
 </html>

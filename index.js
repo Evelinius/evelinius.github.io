@@ -89,6 +89,7 @@ var Tetris = function(x, y, width, height) {
 
     this.width = width || window.innerWidth;
     this.height = height || window.innerHeight;
+    this.width -= 18;
 
     this.bgCanvas = document.createElement('canvas');
     this.fgCanvas = document.createElement('canvas');
